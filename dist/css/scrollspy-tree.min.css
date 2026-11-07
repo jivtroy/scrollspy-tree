@@ -1,0 +1,7 @@
+/*! 
+ * ScrollSpyTree v1.0.0
+ * Homepage (https://github.com/jivtroy/scrollspy-tree)
+ * Copyright Jiv Troy
+ * License: MIT
+ */
+.nav-tree>.nav-item:not(.show)>.nav-tree{display:none}

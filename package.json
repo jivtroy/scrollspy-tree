@@ -1,0 +1,63 @@
+{
+  "name": "scrollspy-tree",
+  "description": "Bootstrap framework scrollspy tree that unfolds gradually as you navigate to a specific branch.",
+  "version": "1.0.0",
+  "type": "module",
+  "files": [
+    "dist"
+  ],
+  "main": "./dist/js/scrollspy-tree.umd.js",
+  "module": "./dist/js/scrollspy-tree.js",
+  "exports": {
+    ".": {
+      "import": "./dist/js/scrollspy-tree.js",
+      "require": "./dist/js/scrollspy-tree.umd.js",
+      "default": "./dist/js/scrollspy-tree.js"
+    },
+    "./css": "./dist/css/scrollspy-tree.min.css",
+    "./dist/css/scrollspy-tree.min.css": "./dist/css/scrollspy-tree.min.css"
+  },
+  "sideEffects": [
+    "./dist/js/scrollspy-tree.js",
+    "./dist/js/scrollspy-tree.umd.js",
+    "./dist/css/scrollspy-tree.min.css"
+  ],
+  "style": "./dist/css/scrollspy-tree.min.css",
+  "keywords": [
+    "bootstrap",
+    "css",
+    "html",
+    "js",
+    "javascript",
+    "scroll",
+    "tree",
+    "nav"
+  ],
+  "homepage": "https://github.com/jivtroy/scrollspy-tree",
+  "author": "Jiv Troy",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jivtroy/scrollspy-tree.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jivtroy/scrollspy-tree/issues"
+  },
+  "license": "MIT",
+  "funding": [
+    {
+      "type": "patreon",
+      "url": "https://patreon.com"
+    }
+  ],
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build"
+  },
+  "devDependencies": {
+    "vite": "^7.3.1",
+    "vite-plugin-banner": "^0.8.1"
+  },
+  "dependencies": {
+    "bootstrap": "^5.3.0"
+  }
+}
