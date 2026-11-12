@@ -30,7 +30,7 @@ export default defineConfig({
   },
   plugins: [
     banner(
-      `\n * ScrollSpyTree v${pkg.version}` +
+      `\n * ScrollSpy Tree v${pkg.version}` +
       `\n * Homepage (${pkg.homepage})` +
       `\n * Copyright ${pkg.author}` +
       `\n * License: ${pkg.license}\n`

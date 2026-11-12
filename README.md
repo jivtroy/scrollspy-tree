@@ -7,12 +7,6 @@ Bootstrap framework scrollspy tree that unfolds gradually as you navigate to a s
 1. [Compatibility](#compatibility)
 2. [Installation](#installation)
    1. [NPM](#npm)
-   2. [Bun](#bun)
-   3. [Deno](#deno)
-   4. [PNPM](#pnpm)
-   5. [Yarn](#yarn)
-   6. [Nub](#nub)
-   7. [Vlt](#vlt)
 3. [Usage](#usage)
    1. [CDN](#cdn)
    2. [Local](#local)
@@ -33,42 +27,6 @@ Bootstrap | >= 5.3 and < 6.0
 
 ```bash
 npm install scrollspy-tree
-```
-
-### Bun
-
-```bash
-bun add scrollspy-tree
-```
-
-### Deno
-
-```bash
-deno add npm:scrollspy-tree
-```
-
-### PNPM
-
-```bash
-pnpm add scrollspy-tree
-```
-
-### Yarn
-
-```bash
-yarn add scrollspy-tree
-```
-
-### Nub
-
-```bash
-nub install scrollspy-tree
-```
-
-### Vlt
-
-```bash
-vlt install scrollspy-tree
 ```
 
 ## Usage

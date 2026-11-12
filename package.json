@@ -31,7 +31,9 @@
     "javascript",
     "scroll",
     "tree",
-    "nav"
+    "nav",
+    "ui",
+    "front-end"
   ],
   "homepage": "https://github.com/jivtroy/scrollspy-tree",
   "author": "Jiv Troy",
